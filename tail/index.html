@@ -7,24 +7,129 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
-<body class="bg-blue">
-    <nav class="relative container mx-auto p-6 bg-white mt-2">
-        <div class="flex item-center justify-between">
+<body class="bg-gray text-white">
+    <nav class="relative  mx-auto bg-whit p-6">
+        <div class="flex items-center justify-between">
             <div class="pt-2">
-             <img src="image/ATORA Energy Logo.jpeg" alt="logo" class="w-18 h-16">
+              <h2 class="hidden text-4xl font-bold text-white text-center md:flex">ATORA ENERGY</h2>
+             <img src="image/ATORA Energy Logo.jpeg" alt="logo" class="w-18 h-16 md:hidden">
             </div>
             <div class="hidden md:flex space-x-6">
-                <a href="#" class="hover:text-gray-light">pricing</a>
-                <a href="#" class="hover:text-gray-light">product</a>
-                <a href="#" class="hover:text-gray-light">About us</a>
-                <a href="#" class="hover:text-gray-light">career</a>
-                <a href="#" class="hover:text-gray-light">community</a>
+              <a href="#" class="hover:text-gray-light">Home</a>
+
+                <a href="#" class="hover:text-gray-light"> 
+                  <select name="" id="" class="bg-gray">
+                  <OPTIon>Our services</OPTIon>
+                   </select></a>
+
+                <a href="#" class="hover:text-gray-light">
+                  <select name="" id="" class="bg-gray">
+                  <OPTIon>Our company</OPTIon>
+                    </select></a>
+
+                <a href="#" class="hover:text-gray-light">Contact us</a>
+                <!-- <a href="#" class="hover:text-gray-light">community</a> -->
             </div>
-            <a href="#" class="p-3 px-6 pt-4 text-white h-14 bg-orange rounded-full baseline">Get started</a>
+            
+            <!-- <a href="#" class="p-3 px-6 pt-4 text-white h-14 bg-orange rounded-full baseline">Get started</a> -->
+            <a href="#" class="p-3 px-6 pt-4 text-white bg-blue rounded-full baseline md:hidden"><img src="image/menu.png" alt="menu" class="object-cover h-5"></a>
 
 
         </div>
     </nav>
+    <section id="slideshow" class="md:hidden">
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="./image/images%20(4).jpeg" style="width:100%">
+    <div class="text">Oil-gas refinery</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="./image/oil-gas-industry-refinery-factory-petrochemical-plant-57449093.jpg" style="width:100%">
+    <div class="text">Comfort is assured</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./image/IMG-20220907-WA0001.jpg" style="width:100%">
+    <div class="text">Delivery van</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+    </section>
+
+
+
+    <!--the image background-->
+    <section id="bgimage" class="hidden md:flex md:flex-row"> 
+      <!-- Container to heading and testm blocks --> 
+      <div class="max-w-6xl px-5 mx-auto mt-32 text-center"> 
+        <!-- Heading --> 
+        <h2 class="text-4xl font-bold text-white text-center"> 
+          WHAT WE STAND FOR...
+        </h2> 
+        <!-- Testimonials Container --> 
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6"> 
+          <!-- Testimonial 1 --> 
+          <div 
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3" 
+          > 
+            <img src="image/king.png" class="w-16 -mt-14 bg-white" alt="" /> 
+            <h5 class="text-lg text-white font-bold">Excellence</h5> 
+            <p class="text-sm text-white"> 
+              "We commit to quality results by upholding the standard we set for our company” 
+            </p> 
+          </div> 
+ 
+          <!-- Testimonial 2 --> 
+          <div 
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3" 
+          > 
+            <img src="image/health-insurance (1).png" class="w-16 bg-white -mt-14" alt="" /> 
+            <h5 class="text-lg text-white font-bold">Safety</h5> 
+            <p class="text-sm text-white"> 
+              “We care about the safety of our personnel and environment.” 
+            </p> 
+          </div> 
+ 
+          <!-- Testimonial 3 --> 
+          <div 
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3" 
+          > 
+            <img src="image/meeting.png" class="w-16 bg-white -mt-14" alt="" /> 
+            <h5 class="text-lg text-white font-bold">One Team</h5> 
+            <p class="text-sm text-white"> 
+              “We put the team ahead of our individual success and diliver as ONE TEAM.” 
+            </p> 
+          </div> 
+        </div>
+      </div> 
+    </section> 
+
+
+    
+
+
+
+
+
     <section id="hero">
         <div class="flex flex-col-reverse items-center space-y-0 mt-32 px-10 mx-auto md:space-y-0 md:flex-row">
             <div class="flex flex-col space-y-6 md:w-1/2">
@@ -39,7 +144,7 @@
            <div class="flex justify-center md:justify-start">
             <a 
             href="#" 
-            class="p-3 px-6 pt-4 text-white h-14 bg-orange rounded-full baseline">Get started</a>
+            class="p-3 px-6 pt-4 text-white h-14 bg-blue rounded-full baseline">Get started</a>
            </div>
 
 
@@ -59,8 +164,8 @@
                 </h2> 
                 <p class="max-w-sm text-center text-darkGrayishBlue md:text-left"> 
                   Atora provides all the functionality your team needs, without the 
-                  complexity. Our software is tailor-made for modern digital product 
-                  teams. 
+                  complexity. Our website is tailor-made for modern digital product 
+                  teams that's readily accessible for our esteem customers. 
                 </p> 
               </div>
 
@@ -70,10 +175,10 @@
            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row" 
          > 
            <!-- Heading --> 
-           <div class="rounded-l-full bg-orange md:bg-transparent"> 
+           <div class="rounded-l-full bg-blue md:bg-transparent"> 
              <div class="flex items-center space-x-2"> 
                <div 
-                 class="px-4 py-2 text-white rounded-full md:py-1 bg-orange" 
+                 class="px-4 py-2 text-white rounded-full md:py-1 bg-blue" 
                > 
                  01 
                </div> 
@@ -100,10 +205,10 @@
            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row" 
          > 
            <!-- Heading --> 
-           <div class="rounded-l-full bg-orange md:bg-transparent"> 
+           <div class="rounded-l-full bg-blue md:bg-transparent"> 
              <div class="flex items-center space-x-2"> 
                <div 
-                 class="px-4 py-2 text-white rounded-full md:py-1 bg-orange" 
+                 class="px-4 py-2 text-white rounded-full md:py-1 bg-blue" 
                > 
                  02 
                </div> 
@@ -130,11 +235,10 @@
            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row" 
          > 
            <!-- Heading --> 
-           <div class="rounded-l-full bg-orange md:bg-transparent"> 
+           <div class="rounded-l-full bg-blue md:bg-transparent"> 
              <div class="flex items-center space-x-2"> 
                <div 
-                 class="px-4 py-2 text-white rounded-full md:py-1 bg-orange" 
-               > 
+                 class="px-4 py-2 text-white rounded-full md:py-1 bg-blue"> 
                  03 
                </div> 
                <h3 class="text-base font-bold md:mb-4 md:hidden"> 
@@ -202,7 +306,7 @@
             > 
               <img src="img/avatar-richard.png" class="w-16 -mt-14" alt="" /> 
               <h5 class="text-lg font-bold">Richard Watts</h5> 
-              <p class="text-sm text-black"> 
+              <p class="text-sm text-darkGrayishBlue"> 
                 “Manage has supercharged our team’s workflow. The ability to 
                 maintain visibility on larger milestones at all times keeps 
                 everyone motivated.” 
@@ -213,14 +317,14 @@
           <div class="my-16"> 
             <a 
               href="#" 
-              class="p-3 px-6 pt-2 text-white bg-orange rounded-full baseline hover:bg-brightRedLight" 
+              class="p-3 px-6 pt-2 text-white bg-blue rounded-full baseline hover:bg-brightRedLight" 
               >Get Started</a 
             > 
           </div> 
         </div> 
       </section> 
 
-      <section id="cta" class="bg-orange"> 
+      <section id="cta" class="bg-blue"> 
         <!-- Flex Container --> 
         <div 
           class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0" 
@@ -229,14 +333,14 @@
           <h2 
             class="text-5xl font-bold text-center text-white md:text-4xl md:max-w-xl md:text-left" 
           > 
-            Simplify how your team works today 
+            Order for refill from the comfort of your home 
           </h2> 
           <!-- Button --> 
           <div> 
             <a 
               href="#" 
-              class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900" 
-              >Get Started</a 
+              class="p-3 px-6 pt-2 text-white bg-gray rounded-full shadow-2xl baseline hover:bg-gray-900" 
+              >Order now</a 
             > 
           </div> 
         </div> 
@@ -263,7 +367,7 @@
             <div class="flex justify-center space-x-4"> 
               <!-- Link 1 --> 
               <a href="#"> 
-                <img src="image/facebook.png" alt="" class="h-8 bg-blue-900" /> 
+                <img src="image/facebook.png" alt="" class="h-8" /> 
               </a> 
               <!-- Link 2 --> 
               <a href="#"> 
@@ -286,10 +390,10 @@
           <!-- List Container --> 
           <div class="flex justify-around space-x-32"> 
             <div class="flex flex-col space-y-3 text-white"> 
-              <a href="#" class="hover:text-brightRed">Home</a> 
-              <a href="#" class="hover:text-brightRed">Pricing</a> 
-              <a href="#" class="hover:text-brightRed">Products</a> 
-              <a href="#" class="hover:text-brightRed">About</a> 
+              <a href="#" class="hover:text-blue">Home</a> 
+              <a href="#" class="hover:text-blue">Our services</a> 
+              <a href="#" class="hover:text-blue">Our company</a> 
+              <a href="#" class="hover:text-blue">Contact us</a> 
             </div> 
             <div class="flex flex-col space-y-3 text-white"> 
               <a href="#" class="hover:text-brightRed">Careers</a> 
@@ -308,7 +412,7 @@
                   placeholder="Updated in your inbox" 
                 /> 
                 <button 
-                  class="px-6 py-2 text-white rounded-full bg-orange hover:bg-pink focus:outline-none" 
+                  class="px-6 py-2 text-white rounded-full bg-blue hover:bg-pink focus:outline-none" 
                 > 
                   Go 
                 </button> 
@@ -320,6 +424,10 @@
           </div> 
         </div> 
       </footer> 
+
+
+
+      <script src="script.js"></script>
     
 </body>
 </html>
