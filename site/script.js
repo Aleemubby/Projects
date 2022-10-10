@@ -22,3 +22,14 @@ btn.addEventListener('click', () => {
   nav.classList.toggle('flex')
   nav.classList.toggle('hidden')
 })
+
+
+// book now
+const btnn = document.getElementById('book')
+const navv = document.getElementById('booknow')
+
+btnn.addEventListener('click', () => {
+  btnn.classList.toggle('arr')
+  navv.classList.toggle('flex')
+  navv.classList.toggle('hidden')
+})

@@ -11,7 +11,7 @@
     <nav class="relative container mx-auto px-8 pt-2 mb-10">
       <div class=" flex justify-between item-center">
       <div class="flex space-x-2">
-        <h1 class="text-4xl max-w-md font-bold text-black">D</h1>
+        <a href="index.html"><h1 class="text-4xl max-w-md font-bold hover:text-ash text-black">A</h1></a>
         <div class="block items-center mt-3">
                  <!-- Hamburger Icon --> 
          <button 
@@ -26,7 +26,7 @@
 
       </div>
       <div class="flex items-center space-y-0 ">
-        <h5 class="text-black text-2xl font-italic">BOOK NOW</h5>
+        <h5 id="book" class="text-black text-2xl font-italic">BOOK NOW</h5>
       </div>
     </div>
 
@@ -35,12 +35,11 @@
     <div class=""> 
       <div 
         id="menu" 
-        class="flex-col items-left hidden self-end  py-8 mt-10 space-y-6 font-bold  sm:w-auto sm:self-center left-6 right-6 drop-shadow-md" 
-      > 
+        class="flex-col items-right hidden self-end  py-8 mt-10 space-y-6 font-bold  sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"> 
         <a href="index.html" class="hover:text-orange">HEALTH AND SAFETY</a> 
         <a href="#" class="hover:text-orange">OFFERS</a> 
         <a href="#" class="hover:text-orange">ABOUT US</a>
-        <a href="#" class="hover:text-orange">ACCOMMODATION/a>
+        <a href="#" class="hover:text-orange">ACCOMMODATION</a>
         <a href="#" class="hover:text-orange">DINNING</a>  
         <a href="#" class="hover:text-orange">SPA AND WELL-BEING</a>  
         <a href="#" class="hover:text-orange">EXPERIENCE</a>  
@@ -49,6 +48,36 @@
         <a href="#" class="hover:text-orange">SUSTAINABILITY</a>  
         <a href="#" class="hover:text-orange">GALLERY</a>   
         <a href="tel:08168183439" class="hover:text-orange">CONTACT</a> 
+      </div>
+    </div>
+
+    <!-- book now menu -->
+
+    <div class=""> 
+      <div 
+        id="booknow" 
+        class="flex-col items-center hidden self-end  py-8 mt-10 space-y-12 font-bold  sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"> 
+        <label for="arriver">
+          <h3 class="text-2xl font-bold">Date of Arrival</h3>
+          <input type="date" name="arrival" id="arr">
+        </label>
+
+        <label for="arriver">
+          <h3 class="text-2xl">Date of Departure</h3>
+          <input type="date" name="arrival" id="arr">
+        </label>
+
+        <label for="arriver">
+          <h3 class="text-2xl font-bold">Adult</h3>
+          <input type="number" name="arriver" id="arr">
+        </label>
+
+        <label for="arriver">
+          <p class="text-2xl text-left">Children</p>
+          <input type="number" name="arrival" id="arr">
+        </label>
+        <a href=""><h3 class="text-center hover:text-ash">CHECK AVAILABILITY</h3></a>
+        <a href=""><h3 class="text-center hover:text-ash">MORE OPTIONS</h3></a>
       </div>
     </div>
     </nav>
@@ -108,9 +137,9 @@
             </div>
             <!-- text -->
             <div class="block justify-center md:justify-center">
-              <h3 class="max-w-sm text-2xl text-center md:text-left md:text-4xl">ACCOMMONDATION</h3>
-              <p class="max-w-sm text-center text-black md:text-left">The resort has 121 rooms, suites and villas, jdsshghbjsabjdaskjdhsakjdkjs all with enchanting views of the lush tropical rainforest, some with the breathtaking vista of the Andaman Sea and Tarutao Island on the horizon.
-                <a href="">READ MORE</a> </p>
+              <h3 class="max-w-sm text-2xl text-center md:text-left md:text-4xl">ACCOMMODATION</h3>
+              <p class="max-w-sm text-center text-black md:text-left">The resort has 121 rooms, suites and villas, all with enchanting views of the lush tropical rainforest, some with the breathtaking vista of the Andaman Sea and Tarutao Island on the horizon.
+               <br> <a href="">READ MORE</a> </p>
             </div>
 
           </div>
@@ -123,8 +152,8 @@
             <!-- text -->
             <div class="block justify-center md:justify-start">
               <h3 class="max-w-sm text-2xl text-center md:text-left md:text-4xl">DINNING</h3>
-              <p class="max-w-sm text-center text-black md:text-left">The Datai Langkawi offers a diverse choice of dining experiences inspired by culinary traditions from around the world. These are played out in unique settings, with spectacular views, enhancing the serenity of the natural environment.
-                <a href="">READ MORE</a> </p>
+              <p class="max-w-sm text-center text-black md:text-left">The Adeyemo resort offers a diverse choice of dining experiences inspired by culinary traditions from around the world. These are played out in unique settings, with spectacular views, enhancing the serenity of the natural environment.
+                <br><a href="">READ MORE</a> </p>
             </div>
 
           </div>
@@ -151,7 +180,7 @@
             <!-- text -->
             <div class="block justify-center md:justify-start">
               <h3 class="max-w-sm text-2xl text-center md:text-left ">SPA AND WELL-BEING</h3>
-              <p class="max-w-sm text-center text-black md:text-left">In harmony with the resort’s unique natural surroundings, well-being at The Datai Langkawi embraces the healing elements of the rainforest.
+              <p class="max-w-sm text-center text-black md:text-left">In harmony with the resort’s unique natural surroundings, well-being at The Adeyemo resort embraces the healing elements of the rainforest.
                <br> <a href="">READ MORE</a> </p>
             </div>
 
@@ -165,7 +194,7 @@
             <!-- text -->
             <div class="block justify-center md:justify-start">
               <h3 class="max-w-sm text-2xl text-center md:text-left ">SPECIAL OFFERS</h3>
-              <p class="max-w-sm text-center text-black md:text-left">Browse our current special rates from MYR 1,380+ for residents of Malaysia, and from MYR 1,880+ for residents of Malaysia and Singapore.
+              <p class="max-w-sm text-center text-black md:text-left">Browse our current special rates from NGR 15,000+ for residents of Nigeria, and from 100USD for Visitors outside Nigeria.
                <br> <a href="">READ MORE</a> </p>
             </div>
 
@@ -194,8 +223,8 @@
           </div>
           <!-- text -->
           <div class=" flex flex-col justify-center items-center md:justify-center">
-            <h3 class=" max-w-sm text-2xl text-center md:text-center"><hr> NATURE AT THE DATAI <hr></h3>
-            <p class="max-w-sm text-center text-black md:text-center">Set against a wilderness backdrop of primordial mountains, the pristine 10 million-year-old rainforest is home to a wealth of flora and fauna: you may well spot Dusky langurs, Tokay geckos and Sunda colugos during your stay. The resort’s private footpath leads to dreamy Datai Bay’s idyllic white-sand beach, one of the Top 10 Beaches worldwide as awarded by National Geographic.
+            <h3 class=" max-w-sm text-2xl text-center md:text-center"><hr> NATURE AT THE ADEYEMO RESORT <hr></h3>
+            <p class="max-w-sm text-center text-black md:text-center">Set against a wilderness backdrop of primordial mountains, the pristine 10 million-year-old rainforest is home to a wealth of flora and fauna: you may well spot Dusky langurs, Tokay geckos and Sunda colugos during your stay. The resort’s private footpath leads to dreamy resort Bay’s idyllic white-sand beach, one of the Top 10 Beaches worldwide as awarded by National Geographic.
 
              <br> <a href="">READ MORE</a> </p>
           </div>
@@ -207,7 +236,7 @@
         <div class="block space-y-6 mx-auto">
           <div class=" flex flex-col justify-center items-center my-6 md:justify-center">
             <h3 class=" max-w-sm text-2xl text-center md:text-center"><hr> 
-              THE DATAI DIARIES <hr></h3>
+              THE ADEYEMO RESORT DIARIES <hr></h3>
           </div>
           
           <!-- image -->

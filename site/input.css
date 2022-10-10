@@ -144,6 +144,20 @@
 }
 
 
+/* book now */
+#book {
+  cursor: pointer;
+  transition: all 0.25s;
+
+}
+#book:hover{
+  color: #b2beb5;
+}
+#arr {
+  width: 300px;
+  border: 1px solid black;
+}
+
  @media(min-width:678px){
   .fade > img {
     width: 100%;
